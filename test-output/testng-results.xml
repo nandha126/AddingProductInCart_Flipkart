@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+    <line>
+      <![CDATA[SetupDriver and InitilizeApplication was Successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Search user product Successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Select the Product in the featured list successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Successfully switched the tab.]]>
+    </line>
+    <line>
+      <![CDATA[Product added and navigate to Cart.]]>
+    </line>
+    <line>
+      <![CDATA[Successfully viewing product in cart.]]>
+    </line>
+    <line>
+      <![CDATA[Searched and added Product are same.]]>
+    </line>
+    <line>
+      <![CDATA[Browser Closed Done.]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="49459" started-at="2022-08-01T06:52:09Z" finished-at="2022-08-01T06:52:58Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="49459" started-at="2022-08-01T06:52:09Z" finished-at="2022-08-01T06:52:58Z">
+      <class name="com.addingproductincart.flipkart.AddingProductinCart">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.addingproductincart.flipkart.AddingProductinCart@490ab905]" name="setup" is-config="true" duration-ms="26969" started-at="2022-08-01T12:22:09Z" finished-at="2022-08-01T12:22:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[SetupDriver and InitilizeApplication was Successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="searchProduct()[pri:0, instance:com.addingproductincart.flipkart.AddingProductinCart@490ab905]" name="searchProduct" duration-ms="4812" started-at="2022-08-01T12:22:36Z" finished-at="2022-08-01T12:22:41Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Search user product Successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method status="PASS" signature="chooseProduct()[pri:0, instance:com.addingproductincart.flipkart.AddingProductinCart@490ab905]" name="chooseProduct" duration-ms="4940" started-at="2022-08-01T12:22:41Z" depends-on-methods="com.addingproductincart.flipkart.AddingProductinCart.searchProduct" finished-at="2022-08-01T12:22:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Select the Product in the featured list successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Successfully switched the tab.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- chooseProduct -->
+        <test-method status="PASS" signature="addToCart()[pri:0, instance:com.addingproductincart.flipkart.AddingProductinCart@490ab905]" name="addToCart" duration-ms="6813" started-at="2022-08-01T12:22:46Z" depends-on-methods="com.addingproductincart.flipkart.AddingProductinCart.chooseProduct" finished-at="2022-08-01T12:22:52Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Product added and navigate to Cart.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="viewAddedProduct()[pri:0, instance:com.addingproductincart.flipkart.AddingProductinCart@490ab905]" name="viewAddedProduct" duration-ms="3777" started-at="2022-08-01T12:22:52Z" depends-on-methods="com.addingproductincart.flipkart.AddingProductinCart.addToCart" finished-at="2022-08-01T12:22:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully viewing product in cart.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- viewAddedProduct -->
+        <test-method status="PASS" signature="verifytheProduct()[pri:0, instance:com.addingproductincart.flipkart.AddingProductinCart@490ab905]" name="verifytheProduct" duration-ms="25" started-at="2022-08-01T12:22:56Z" depends-on-methods="com.addingproductincart.flipkart.AddingProductinCart.viewAddedProduct" finished-at="2022-08-01T12:22:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Searched and added Product are same.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifytheProduct -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.addingproductincart.flipkart.AddingProductinCart@490ab905]" name="tearDown" is-config="true" duration-ms="1978" started-at="2022-08-01T12:22:56Z" finished-at="2022-08-01T12:22:58Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Closed Done.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.addingproductincart.flipkart.AddingProductinCart -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
